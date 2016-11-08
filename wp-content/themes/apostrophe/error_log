@@ -1,0 +1,1 @@
+[02-Nov-2016 23:41:54 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/betaalle/public_html/wp-content/themes/apostrophe/index.php on line 14

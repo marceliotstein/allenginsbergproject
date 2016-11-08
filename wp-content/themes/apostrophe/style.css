@@ -190,6 +190,19 @@ article img {
   width: 100%;
 }
 
+/*
+article img.not(img-original-size) {
+  width: 100%;
+}
+
+article img.img-original-size {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+}
+*/
+
 h4 {
   text-align: center;
   font-size: .8em;
@@ -1601,7 +1614,8 @@ a:active {
 .page-content,
 .entry-content,
 .entry-summary {
-	margin: 1.5em 0 0;
+  margin: 1.5em 0 0;
+  font-size: 1.7rem;
 }
 
 .page-links {
@@ -1669,7 +1683,10 @@ a:active {
 }
 
 .apostrophe-tags {
+/*
   float: right;
+*/
+  margin-top: 25px;
 }
 
 .entry-footer .apostrophe-tags::after {

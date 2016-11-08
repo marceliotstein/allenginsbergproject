@@ -43,8 +43,8 @@
 					 	jetpack_the_site_logo();
 					endif;
 					?>
-					<!-- <h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php //bloginfo( 'name' ); ?></a></h1>-->
-					<!-- <h2 class="site-description"><?php //bloginfo( 'description' ); ?></h2>-->
+					<!--<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php //bloginfo( 'name' ); ?></a></h1>-->
+					<!--<h2 class="site-description"><?php //bloginfo( 'description' ); ?></h2>-->
 				</div></a>
 				<nav id="site-navigation" class="main-navigation" role="navigation">
 					<a class="menu-toggle"><?php esc_html_e( '', 'apostrophe' ); ?></a>
