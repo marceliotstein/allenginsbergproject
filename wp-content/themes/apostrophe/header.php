@@ -67,5 +67,6 @@
 				</nav><!-- #site-navigation -->
 
 			</header><!-- #masthead -->
+                        <div style="clear: both;"></div>
 
 			<div id="content" class="site-content">
