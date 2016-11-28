@@ -190,18 +190,16 @@ article img {
   width: 100%;
 }
 
-/*
 article img.not(img-original-size) {
   width: 100%;
 }
 
-article img.img-original-size {
+img.img-original-size {
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: auto;
 }
-*/
 
 h4 {
   text-align: center;
@@ -846,9 +844,17 @@ textarea {
 /*--------------------------------------------------------------
 5.1 Links
 --------------------------------------------------------------*/
+
 a {
-	color: #117bb8;
-	transition: 100ms all ease-in;
+  text-decoration: none;
+}
+
+.ag-front-excerpt a,
+.entry-content a {
+  box-shadow: 0 0 0 0 currentColor;
+  border-bottom: 1px solid black;
+  color: #000;
+  text-decoration: none;
 }
 
 a:hover,
@@ -879,6 +885,7 @@ a:active {
 	font-weight: 300;
 	width: 100%;
 	text-align: right;
+        padding-right: 3.0%;
 }
 
 .main-navigation a {
@@ -2733,8 +2740,8 @@ Primarily mobile devices and super-small tablets.
 	}
 
 	.main-navigation .menu-toggle {
-		border-bottom: solid 0px;
-		border-top: solid 4px transparent;
+	        /* border-bottom: solid 0px; */
+                /* border-top: solid 4px transparent; */
 		cursor: pointer;
 		display: block;
 		height: 60px;
@@ -2857,16 +2864,13 @@ Primarily mobile devices and super-small tablets.
 			 -moz-box-sizing: border-box;
 		-webkit-box-sizing: border-box;
 						box-sizing: border-box;
-		float: right;
                 /*
-		padding-left: 5.55556%;
-		padding-right: 5.55556%;
+		float: right;
+		width: 65%;
                 */
 		padding-left: 4%;
 		padding-right: 4%;
 		padding-right: 0;
-		width: 65%;
-		/*width: 66.66667%;*/
 	}
 
 	.archive article:not(.apostrophe-featured) .entry-meta,
@@ -3075,21 +3079,11 @@ Primarily tablets and teensy desktops.
 			 -moz-box-sizing: border-box;
 		-webkit-box-sizing: border-box;
 						box-sizing: border-box;
-		/*float: left;*/
 		margin-bottom: 54px;    
 		padding-left: 1.11111%;
-		padding-right: 1.11111%;
-		/* width: 33.33333%;*/
+		padding-right: 9.0%;
 		width: 100%;
 	}
-
-/*
-	.archive article .entry-meta,
-	.blog article .entry-meta,
-	.search article .entry-meta {
-		margin: -33px 0 15px -5px;
-	}
-*/
 
 	.archive article.clear,
 	.blog article.clear,
@@ -3113,7 +3107,7 @@ Primarily tablets and teensy desktops.
 						box-sizing: border-box;
 		float: left;
 		padding-left: 1.11111%;
-		padding-right: 1.11111%;
+		padding-right: 9.0%;
 		width: 66.66667%;
 	}
 
