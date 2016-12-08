@@ -68,10 +68,9 @@ article div {
 div.ag-caption {
   text-align: left;
   font-family: quattrocento;
-  font-size: .82em;
+  font-size: .72em;
   line-height: 1.2em;
-  color: #4f4f4f;
-  margin-bottom: 20px;
+  color: #7f7f7f;
 }
 
 .entry-meta,
@@ -189,7 +188,6 @@ article {
 
 article img {
   width: 100%;
-  margin-top: 20px;
 }
 
 article img.not(img-original-size) {
