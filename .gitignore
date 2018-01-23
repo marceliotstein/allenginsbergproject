@@ -1,2 +1,5 @@
 wp-config*
 wp-content/uploads
+error_log
+wp-admin/error_log
+wp-content/themes/apostrophe/error_log
